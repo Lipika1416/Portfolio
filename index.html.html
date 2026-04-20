@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lipika | AI/ML Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-logo">Lipika<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home-content">
+      <p class="greeting">Hello, everyone👋</p>
+      <h1 class="name">I'm <span class="highlight">Lipika</span></h1>
+      <div class="typewriter-wrap">
+        <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="sub-text">BTech CSE (AI/ML-2A) ·Manav Rachna University, Faridabad</p>
+      <div class="home-btns">
+        <a href="#projects" class="btn btn-glow">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/lipikaydv-labs" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:lipikaydv16@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="home-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-emoji">👩‍💻</span>
+        </div>
+        <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-3"><div class="orbit-dot"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-header">
+      <h2>About <span class="highlight">Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-card glass">
+        <div class="about-icon"><i class="fas fa-user-astronaut"></i></div>
+        <h3>Who I Am</h3>
+        <p>I'm Lipika, a first-year BTech CSE (AI/ML) student at Manav Rachna University, Faridabad. I love building things with code — from Python scripts to web apps — and I'm just getting started.</p>
+      </div>
+      <div class="about-card glass">
+        <div class="about-icon"><i class="fas fa-brain"></i></div>
+        <h3>What I Do</h3>
+        <p>I explore Python, data science, and web development. I enjoy working with NumPy, Pandas, and Matplotlib to make sense of data, and building clean, functional web interfaces.</p>
+      </div>
+      <div class="about-card glass">
+        <div class="about-icon"><i class="fas fa-rocket"></i></div>
+        <h3>My Goal</h3>
+        <p>To grow into a skilled AI/ML engineer. I'm focused on building a strong foundation — one project, one certification, and one concept at a time.</p>
+      </div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-item">
+        <span class="stat-num" data-target="3">0</span><span>+</span>
+        <p>Projects</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="4">0</span><span>+</span>
+        <p>Certifications</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="5">0</span><span>+</span>
+        <p>Technologies</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="1">0</span><span>+</span>
+        <p>Year Learning</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-header">
+      <h2>My <span class="highlight">Skills</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-container">
+      <div class="skill-category glass">
+        <h3><i class="fas fa-code"></i> Languages</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">C</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <h3><i class="fas fa-chart-bar"></i> Data Science</h3>
+        <div class="skill-tags">
+          <span class="tag">NumPy</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">Data Visualization</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <h3><i class="fas fa-layer-group"></i> Web Development</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-category glass">
+        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Jupyter Notebook</span>
+          <span class="tag">Google Colab</span>
+        </div>
+      </div>
+    </div>
+    <div class="skill-bars">
+      <div class="bar-item">
+        <div class="bar-label"><span>Python</span><span>75%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Data Visualization (Matplotlib)</span><span>70%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Web Development</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="65"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>NumPy & Pandas</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="65"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-header">
+      <h2>My <span class="highlight">Projects</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card glass">
+        <div class="project-top">
+          <i class="fas fa-book project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/lipikaydv-labs" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Library Management System</h3>
+        <p>A console-based Python application to manage library operations — add, search, issue, and return books with a clean menu-driven interface.</p>
+        <div class="project-tags">
+          <span>Python</span><span>OOP</span><span>File Handling</span>
+        </div>
+      </div>
+
+      <div class="project-card glass">
+        <div class="project-top">
+          <i class="fas fa-calculator project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/lipikaydv-labs" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Calculator Website</h3>
+        <p>A fully functional, responsive calculator built from scratch with a clean dark UI, keyboard support, and smooth button animations.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card glass">
+        <div class="project-top">
+          <i class="fas fa-globe project-icon"></i>
+          <div class="project-links">
+            <a href="https://github.com/lipikaydv-labs" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>This very portfolio — a dark-themed personal website with particle animations, scroll reveals, typewriter effects, and glowing UI components.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="section-header">
+      <h2>My <span class="highlight">Certifications</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="cert-grid">
+
+      <div class="cert-card glass">
+        <div class="cert-badge"><i class="fas fa-sitemap"></i></div>
+        <div class="cert-info">
+          <h3>Data Structures Fundamentals</h3>
+          <p>Programming Certification</p>
+          <span class="cert-year">2025</span>
+        </div>
+      </div>
+
+      <div class="cert-card glass">
+        <div class="cert-badge"><i class="fab fa-python"></i></div>
+        <div class="cert-info">
+          <h3>Fundamentals of Python Programming</h3>
+          <p>Python Certification</p>
+          <span class="cert-year">2025</span>
+        </div>
+      </div>
+
+      <div class="cert-card glass">
+        <div class="cert-badge"><i class="fas fa-chart-area"></i></div>
+        <div class="cert-info">
+          <h3>Python & Matplotlib: Data Visualization</h3>
+          <p>Data Science Certification</p>
+          <span class="cert-year">2025</span>
+        </div>
+      </div>
+
+      <div class="cert-card glass">
+        <div class="cert-badge"><i class="fas fa-table"></i></div>
+        <div class="cert-info">
+          <h3>NumPy and Pandas Python</h3>
+          <p>Data Science Certification</p>
+          <span class="cert-year">2025</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <div class="section-header">
+      <h2>My <span class="highlight">Resume</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="resume-content">
+      <div class="resume-col">
+        <h3 class="resume-col-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+        <div class="timeline">
+          <div class="timeline-item glass">
+            <div class="timeline-dot"></div>
+            <h4>BTech CSE (AI/ML)</h4>
+            <p class="timeline-place">Manav Rachna University, Faridabad</p>
+            <span class="timeline-year">2025 – 2029</span>
+            <p>Specialization in Artificial Intelligence and Machine Learning. Currently in first year, building a strong foundation in programming, data structures, and Python.</p>
+          </div>
+          <div class="timeline-item glass">
+            <div class="timeline-dot"></div>
+            <h4>Class XII</h4>
+            <p class="timeline-place">CBSE Board</p>
+            <span class="timeline-year">2025</span>
+            <p>Completed senior secondary education with a focus on Science and Computer Science.</p>
+          </div>
+        </div>
+      </div>
+      <div class="resume-col">
+        <h3 class="resume-col-title"><i class="fas fa-certificate"></i> Highlights</h3>
+        <div class="timeline">
+          <div class="timeline-item glass">
+            <div class="timeline-dot"></div>
+            <h4>4 Certifications Earned</h4>
+            <p class="timeline-place">Self-Learning</p>
+            <span class="timeline-year">2025</span>
+            <p>Completed certifications in Python, Data Structures, Matplotlib, NumPy and Pandas — all within the first year of college.</p>
+          </div>
+          <div class="timeline-item glass">
+            <div class="timeline-dot"></div>
+            <h4>3 Projects Built</h4>
+            <p class="timeline-place">Personal Projects</p>
+            <span class="timeline-year">2025</span>
+            <p>Built a Library Management System in Python, a Calculator Website, and this Portfolio — all from scratch.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume-download">
+      <a href="#" class="btn btn-glow"><i class="fas fa-download"></i> Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-header">
+      <h2>Get In <span class="highlight">Touch</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p class="contact-intro">I'm always open to new opportunities, collaborations, or just a friendly chat about AI. Drop me a message!</p>
+        <div class="contact-items">
+          <div class="contact-item glass">
+            <i class="fas fa-envelope"></i>
+            <span>lipikaydv16@gmail.com</span>
+          </div>
+          <div class="contact-item glass">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Faridabad, Haryana, India</span>
+          </div>
+          <div class="contact-item glass">
+            <i class="fas fa-university"></i>
+            <span>Manav Rachna University</span>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://github.com/lipikaydv-labs" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:lipikaydv16@gmail.com" class="social-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <form class="contact-form glass" id="contactForm">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required />
+          <label>Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required />
+          <label>Your Email</label>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject" />
+          <label>Subject</label>
+        </div>
+        <div class="form-group">
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <label>Your Message</label>
+        </div>
+        <button type="submit" class="btn btn-glow full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed & Built by <span class="highlight">Lipika</span> · BTech CSE AI/ML · Manav Rachna University, Faridabad</p>
+    <p class="footer-sub">© 2025 · Made with <span style="color:#e25555">♥</span> and lots of ☕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
