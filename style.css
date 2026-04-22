@@ -794,9 +794,16 @@ footer p { color: var(--text-muted); font-size: 0.9rem; }
   section { padding: 80px 5%; }
   .stats-row { gap: 28px; }
 }
+.avatar-inner {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .avatar-photo {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   object-fit: cover;
+  border-radius: 50%;
 }
