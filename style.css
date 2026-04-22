@@ -295,14 +295,14 @@ section {
 
 .avatar-ring {
   position: relative;
-  width: 320px; height: 320px;
+  width: 200px; height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .avatar-inner {
-  width: 180px; height: 180px;
+  width: 150px; height: 150px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   display: flex;
@@ -312,6 +312,12 @@ section {
   box-shadow: 0 0 40px var(--glow), 0 0 80px var(--glow2);
   z-index: 2;
   animation: float 4s ease-in-out infinite;
+}
+.avatar-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 @keyframes float {
